@@ -2,17 +2,17 @@
 
 **Coupling and cohesion** are very important principles in strucuted design. 
 ## 1. Cohesion
->Cohesion refers to how closely the responsibilities and functionality within a module or component are related to each other. 
->>Basically, how closely the functions within a module are related to each other. 
+- Cohesion refers to how closely the responsibilities and functionality within a module or component are related to each other. 
+    - Basically, how closely the functions within a module are related to each other. 
 
-    Higher cohesion is better and means that the functions are tightly focused on a single, well defined task.
+***Higher cohesion is better and means that the functions are tightly focused on a single, well defined task.***
 
 ## 2. Coupling 
 
->Coupling relates to the interdependence between modules.
->>Basically, it measures how closely one module is connected to or relies on another. 
+- Coupling relates to the interdependence between modules.
+    - Basically, it measures how closely one module is connected to or relies on another. 
 
-    Lower coupling is better and indicates that modules are relatively independent, reducing the impact of changes in one module on others. 
+***Lower coupling is better and indicates that modules are relatively independent, reducing the impact of changes in one module on others.*** 
 
 
 
@@ -56,37 +56,37 @@ Class diagrams are used to help in defining classes, their attributes, and their
 
 ## Encapsulation
 
->It is the concept of bundling data (attributes) and methods (functions) that operate on that data into a single unit, or "object," and restricting access to certain parts of the object to control its behavior (i.e. using a the private keyword with getters and setters).
+It is the concept of bundling data (attributes) and methods (functions) that operate on that data into a single unit, or "object," and restricting access to certain parts of the object to control its behavior (i.e. using a the private keyword with getters and setters).
 
 ## Abstraction
 
->Abstraction involves simplifying complex systems by modeling classes based on real-world entities, emphasizing the essential characteristics while hiding unnecessary details.
+Abstraction involves simplifying complex systems by modeling classes based on real-world entities, emphasizing the essential characteristics while hiding unnecessary details.
 
 ## Inheritance
 
->Inheritance allows a class (a blueprint for an object) to inherit properties and behaviors from another class, facilitating code reuse and the creation of specialized classes based on existing ones.
+Inheritance allows a class (a blueprint for an object) to inherit properties and behaviors from another class, facilitating code reuse and the creation of specialized classes based on existing ones.
 
 ## Polymorphism
 
->Polymorphism enables objects of different classes to be treated as objects of a common base class, allowing for method overriding and providing flexibility in how different objects can respond to the same method call.
+Polymorphism enables objects of different classes to be treated as objects of a common base class, allowing for method overriding and providing flexibility in how different objects can respond to the same method call.
 
 # Q5 What is a stratagy pattern? How would its implementation differ between a functional and object oriented system?
 
-    The Strategy Pattern is a design pattern in software engineering that falls under the category of behavioral patterns.
+***The Strategy Pattern is a design pattern in software engineering that falls under the category of behavioral patterns.***
 
->It's used to define a family of algorithms, encapsulate each one of them, and make them **interchangeable.** 
+It's used to define a family of algorithms, encapsulate each one of them, and make them **interchangeable.** 
 This allows you to select an algorithm at runtime, without altering the client code that uses the algorithm.
 
->Using an online shoping cart example.
->>In an objected-oriented design there would be seperate classes for different payment methods. All of the classes would share a common interface. The interface would then determine how to pay. The shopping care can then use any of the different payment methods by switching when needed.
+- Using an online shoping cart example.
+    - **With using objected-oriented design** there would be seperate classes for different payment methods. All of the classes would share a common interface. The interface would then determine how to pay. The shopping care can then use any of the different payment methods by switching when needed.
 
->>In functional design the payment methods would be implemented as functions. Switching between them would be done by passing the appropriate functino to the checkout function. 
+    - **With using functional design** the payment methods would be implemented as functions. Switching between them would be done by passing the appropriate functino to the checkout function. 
 
 
 
 # Q6 What design methodology to create a payment system and why?
 
-All three methods mentioned could be used to create this payment system but I personally would use the Object-oriented design methodology as opposed to the other two. 
+***All three methods mentioned could be used to create this payment system but I personally would use the Object-oriented design methodology as opposed to the other two.*** 
 ## The reasons why:
 
 1. The use of object-oriented design would allow the compartmentalisation of complex problems that would be found in the payment processor business. Breaking the program into smaller solvable objects would help in the making of the program.
